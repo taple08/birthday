@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDAY GIRL</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Brynn.</strong>
+                        <p>
+                            Happy Birthday! To the person who owns and fills up my heart with full of love.
+                            I hope you achieve everything you want in life and imporatantly your happiness.
+                            Because of you I feel more like me and when you feel like you have no one you
+                            will always have me. Always.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+        <div class="header">
+            <h1>Play the audio first </h1>
+            <h1>before you open the letter.</h1>
+        </div>
+    <div class="song">
+    <audio controls src="Bruno Major - The Most Beautiful Thing.mp3" type="audio/mpeg">
+        Your Browser does not support the audio element.
+    </audio>
+    </div>
+  </body>
+</html>
